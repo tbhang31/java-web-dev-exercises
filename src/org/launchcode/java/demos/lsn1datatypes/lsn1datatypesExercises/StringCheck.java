@@ -1,4 +1,4 @@
-package org.launchcode.java.demos.lsn1datatypesExercises;
+package org.launchcode.java.demos.lsn1datatypes.lsn1datatypesExercises;
 import java.util.Scanner;
 
 
@@ -12,7 +12,6 @@ public class StringCheck {
         boolean isPresent = text.toLowerCase().contains(word);
         int index = text.toLowerCase().indexOf(word);
         System.out.println("\nIt is " + isPresent + " that the above passage contains the word '" + word + "' at index " + index);
-
 
     }
 }
