@@ -1,4 +1,4 @@
-package org.launchcode.java.demos.lsn1datatypes;
+package org.launchcode.java.demos.chapeter2datatypes;
 
 import java.util.Scanner;
 

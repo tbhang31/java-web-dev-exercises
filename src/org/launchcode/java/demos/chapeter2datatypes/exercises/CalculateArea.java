@@ -1,4 +1,4 @@
-package org.launchcode.java.demos.lsn1datatypes.lsn1datatypesExercises;
+package org.launchcode.java.demos.chapeter2datatypes.exercises;
 import java.util.Scanner;
 public class CalculateArea {
     public static void main(String[] args) {

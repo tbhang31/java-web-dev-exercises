@@ -1,6 +1,5 @@
-package org.launchcode.java.demos.lsn1datatypes.studio;
+package org.launchcode.java.demos.chapeter2datatypes.studio;
 import java.util.Scanner;
-import org.launchcode.java.demos.lsn1datatypes.studio.Area;
 
 public class Circle {
     public static void main(String[] args) {
