@@ -12,13 +12,13 @@ public class ArrayPractice {
 //        Part 2
         for (int i=0; i<intArray.length; i++) {
             if (intArray[i]%2 != 0) {
-                System.out.println(intArray[i]);
+//                System.out.println(intArray[i]);
             }
         }
 //        Part 3
         String text = "I would not, could not, in a box. I would not, could not with a fox. I will not eat them in a house. I will not eat them with a mouse.";
         String[] textArray = text.split(" ");
-        System.out.println(Arrays.toString(textArray));
+//        System.out.println(Arrays.toString(textArray));
 
 //        Part 4 execution
         ArrayList<Integer> numArray = new ArrayList<Integer>();
@@ -53,12 +53,25 @@ public class ArrayPractice {
 //        System.out.println(result.toString());
 
 //        Part 6 execution
-        System.out.println("Choose a number of letters to look for ");
-        int wordCount = input.nextInt();
-        ArrayList<String> testTwo = new ArrayList<String>(Arrays.asList(textArray));
-        ArrayList<String> secondResult = storeOnlyXLetters(testTwo,wordCount);
-        System.out.println(secondResult.toString());
+//        System.out.println("Choose a number of letters to look for ");
+//        int wordCount = input.nextInt();
+//        ArrayList<String> testTwo = new ArrayList<String>(Arrays.asList(textArray));
+//        ArrayList<String> secondResult = storeOnlyXLetters(testTwo,wordCount);
+//        System.out.println(secondResult.toString());
 
+//        Part 7- Hashmap practice
+        HashMap<Integer, String> students = new HashMap<Integer, String>();
+        students.put(1,"Sean Weissman");
+        students.put(2,"Kat Evergreen");
+        students.put(3,"Adam West");
+        students.put(4,"Henry Cavill");
+        students.put(5,"Wednesday Addams");
+        students.put(6,"Sen Tran");
+        students.put(7,"John Cousack");
+
+        for (Map.Entry<Integer, String> student: students.entrySet()) {
+            System.out.println("\nID: "+ student.getKey() + "\nName: " + student.getValue());
+        }
 
     }
 
@@ -85,13 +98,14 @@ public class ArrayPractice {
     }
 
     public static ArrayList<String> storeOnlyXLetters (ArrayList<String> stringArray, int x) {
-        if (x > 7 && x<0) {
-            System.out.println("Can not execute");
-        }
         ArrayList<String> newArray = new ArrayList<String>();
-        for (String string: stringArray) {
-            if (string.length() == x) {
-                newArray.add(string);
+        if (x > 7 && x<0) {
+            newArray.add("Can not execute");
+        } else {
+            for (String string: stringArray) {
+                if (string.length() == x) {
+                    newArray.add(string);
+                }
             }
         }
         return newArray;
