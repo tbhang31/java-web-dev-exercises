@@ -1,4 +1,4 @@
-package org.launchcode.java.demos.lsn5unittesting.test;
+package org.launchcode.java.demos.chapter6unittesting.test;
 
 public class CarTest {
 

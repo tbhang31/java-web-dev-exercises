@@ -1,4 +1,4 @@
-package org.launchcode.java.demos.lsn5unittesting.main;
+package org.launchcode.java.demos.chapter6unittesting.main;
 
 public class Main {
 

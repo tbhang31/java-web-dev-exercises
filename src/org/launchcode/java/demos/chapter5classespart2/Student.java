@@ -1,4 +1,4 @@
-package org.launchcode.java.demos.lsn4classes2;
+package org.launchcode.java.demos.chapter5classespart2;
 
 public class Student {
 
