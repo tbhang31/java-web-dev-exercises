@@ -1,4 +1,4 @@
-package org.launchcode.java.demos.lsn3classes1.studio;
+package org.launchcode.java.demos.chapter3controlflows.studio;
 
 import java.util.HashMap;
 import java.util.Map;

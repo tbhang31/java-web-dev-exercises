@@ -1,4 +1,4 @@
-package org.launchcode.java.demos.lsn3classes1.exercises;
+package org.launchcode.java.demos.chapter3controlflows.exercises;
 
 import java.util.Scanner;
 import java.util.*;
